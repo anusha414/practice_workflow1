@@ -1,0 +1,12 @@
+name: first practice workflow
+on:
+  push:
+    branches:
+    - master
+  workflow_dispatch:
+jobs:
+  job1:
+     runs_on: ubuntu-latest
+     steps:
+     - name: checkout task
+       uses: actions/checkout@v3
