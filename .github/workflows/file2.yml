@@ -1,8 +1,7 @@
 name: first practice workflow
 on:
   push:
-    branches:
-    - master
+    branches: ["master"]
   workflow_dispatch:
 jobs:
   job1:
@@ -10,3 +9,7 @@ jobs:
      steps:
      - name: checkout task
        uses: actions/checkout@v3
+     - name: task1
+       run: echo "hello world"
+     - name: task2
+       run: echo "this is my first job"
