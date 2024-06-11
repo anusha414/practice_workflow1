@@ -1,14 +1,15 @@
-name: first practice workflow
+name: CI
 on:
   push:
-    branches: [ "master" ]
   workflow_dispatch:
 jobs:
   build:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v4
-     - name: task1
-       run: echo "hello world"
-     - name: task2
-       run: echo "this is my first job"
+      - uses: actions/checkout@v4
+      - name: Run a one-line script
+        run: echo Hello, world!
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
