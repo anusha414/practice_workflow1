@@ -1,0 +1,46 @@
+# Logfile created on 2024-06-13 04:30:58 +0000 by logger.rb/v1.6.0
+I, [2024-06-13T04:30:58.458352 #1]  INFO -- : Using GitHub Features: Defaults
+I, [2024-06-13T04:30:58.458620 #1]  INFO -- : Auditing 'https://dev.azure.com/matleanusha/anusha-firstproject/_build'
+I, [2024-06-13T04:30:58.474907 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/_apis/distributedtask/tasks?api-version=5.0-preview
+I, [2024-06-13T04:30:59.064930 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:30:59.092020 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/build/definitions?api-version=5.0&includeAllProperties=true&queryOrder=lastModifiedDescending
+I, [2024-06-13T04:30:59.469033 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:30:59.472713 #1]  INFO -- : Thread collection size: 8
+I, [2024-06-13T04:30:59.519204 #1]  INFO -- request: GET https://api.github.com/repos/anusha414/Azure-Dev/contents/azure-pipelines.yml?ref=master
+I, [2024-06-13T04:30:59.520156 #1]  INFO -- request: GET https://api.github.com/repos/anusha414/Azure-pipeline/contents/azure-pipelines.yml?ref=master
+I, [2024-06-13T04:31:00.055090 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:00.058070 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:00.066341 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/serviceendpoint/endpoints?api-version=5.0-preview
+I, [2024-06-13T04:31:00.067068 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/serviceendpoint/endpoints?api-version=5.0-preview
+I, [2024-06-13T04:31:00.261882 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:00.266874 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/distributedtask/variablegroups?api-version=5.0-preview&queryOrder=idDescending
+I, [2024-06-13T04:31:00.303426 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:00.305008 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/distributedtask/variablegroups?api-version=5.0-preview&queryOrder=idDescending
+I, [2024-06-13T04:31:00.358884 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:00.360121 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/distributedtask/taskgroups?api-version=5.0-preview
+I, [2024-06-13T04:31:00.406074 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:00.407812 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/distributedtask/taskgroups?api-version=5.0-preview
+I, [2024-06-13T04:31:00.563182 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:00.704188 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:00.712456 #1]  INFO -- request: GET https://vsrm.dev.azure.com/matleanusha/anusha-firstproject/_apis/release/definitions?api-version=5.0&queryOrder=idDescending
+I, [2024-06-13T04:31:01.143334 #1]  INFO -- response: Status 200
+D, [2024-06-13T04:31:01.155400 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::Steps]: Located transformer for 'Maven@3'
+D, [2024-06-13T04:31:01.158707 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::Steps]: Located transformer for 'CopyFiles@2'
+D, [2024-06-13T04:31:01.159694 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::Steps]: Located transformer for 'PublishBuildArtifacts@1'
+D, [2024-06-13T04:31:01.161021 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::On]: Located transformer for 'continuousIntegration'
+D, [2024-06-13T04:31:01.161385 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::On]: Located transformer for 'pullRequest'
+D, [2024-06-13T04:31:01.219290 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::Steps]: Located transformer for 'Maven@3'
+D, [2024-06-13T04:31:01.220378 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::On]: Located transformer for 'continuousIntegration'
+D, [2024-06-13T04:31:01.220695 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::On]: Located transformer for 'pullRequest'
+I, [2024-06-13T04:31:01.268394 #1]  INFO -- : Output file(s):
+I, [2024-06-13T04:31:01.312823 #1]  INFO -- :   tmp/audit/pipelines/anusha-firstproject/anusha414.Azure-Dev/.github/workflows/anusha414.azure-dev.yml
+I, [2024-06-13T04:31:01.319122 #1]  INFO -- :   tmp/audit/pipelines/anusha-firstproject/anusha414.Azure-Dev/config.json
+I, [2024-06-13T04:31:01.327970 #1]  INFO -- :   tmp/audit/pipelines/anusha-firstproject/anusha414.Azure-Dev/source.yml
+I, [2024-06-13T04:31:01.366251 #1]  INFO -- :   tmp/audit/pipelines/anusha-firstproject/anusha414.Azure-pipeline/.github/workflows/anusha414.azure-pipeline.yml
+I, [2024-06-13T04:31:01.374982 #1]  INFO -- :   tmp/audit/pipelines/anusha-firstproject/anusha414.Azure-pipeline/config.json
+I, [2024-06-13T04:31:01.384907 #1]  INFO -- :   tmp/audit/pipelines/anusha-firstproject/anusha414.Azure-pipeline/source.yml
+I, [2024-06-13T04:31:01.403824 #1]  INFO -- :   tmp/audit/workflow_usage.csv
+I, [2024-06-13T04:31:01.414191 #1]  INFO -- :   tmp/audit/audit_summary.md
+I, [2024-06-13T04:31:23.765865 #1]  INFO -- request: GET https://api.github.com/user
+I, [2024-06-13T04:31:24.131805 #1]  INFO -- response: Status 200
+I, [2024-06-13T04:31:24.138439 #1]  INFO -- : Sending telemetry with transaction id 'caa1fe78-73ce-4efb-a432-d24cc88e4383'

@@ -1,0 +1,153 @@
+{
+  "triggers": [
+    {
+      "branchFilters": [
+        "+master"
+      ],
+      "pathFilters": [
+
+      ],
+      "settingsSourceType": 2,
+      "batchChanges": false,
+      "maxConcurrentBuildsPerBranch": 1,
+      "triggerType": "continuousIntegration"
+    },
+    {
+      "settingsSourceType": 2,
+      "branchFilters": [
+        "+master"
+      ],
+      "forks": {
+        "enabled": true,
+        "allowSecrets": false,
+        "allowFullAccessToken": false
+      },
+      "pathFilters": [
+
+      ],
+      "requireCommentsForNonTeamMembersOnly": false,
+      "requireCommentsForNonTeamMemberAndNonContributors": false,
+      "isCommentRequiredForPullRequest": false,
+      "pipelineTriggerSettings": {
+        "forkProtectionEnabled": true,
+        "buildsEnabledForForks": false,
+        "enforceJobAuthScopeForForks": false,
+        "enforceNoAccessToSecretsFromForks": false,
+        "isCommentRequiredForPullRequest": false,
+        "requireCommentsForNonTeamMembersOnly": false,
+        "requireCommentsForNonTeamMemberAndNonContributors": false
+      },
+      "triggerType": "pullRequest"
+    }
+  ],
+  "properties": {
+  },
+  "tags": [
+
+  ],
+  "_links": {
+    "self": {
+      "href": "https://dev.azure.com/matleanusha/7d57e68d-25d4-448e-9098-38669044cc57/_apis/build/Definitions/2?revision=1"
+    },
+    "web": {
+      "href": "https://dev.azure.com/matleanusha/7d57e68d-25d4-448e-9098-38669044cc57/_build/definition?definitionId=2"
+    },
+    "editor": {
+      "href": "https://dev.azure.com/matleanusha/7d57e68d-25d4-448e-9098-38669044cc57/_build/designer?id=2&_a=edit-build-definition"
+    },
+    "badge": {
+      "href": "https://dev.azure.com/matleanusha/7d57e68d-25d4-448e-9098-38669044cc57/_apis/build/status/2"
+    }
+  },
+  "jobAuthorizationScope": "projectCollection",
+  "jobTimeoutInMinutes": 60,
+  "jobCancelTimeoutInMinutes": 5,
+  "process": {
+    "yamlFilename": "azure-pipelines.yml",
+    "type": 2
+  },
+  "repository": {
+    "properties": {
+      "apiUrl": "https://api.github.com/repos/anusha414/Azure-Dev",
+      "branchesUrl": "https://api.github.com/repos/anusha414/Azure-Dev/branches",
+      "cloneUrl": "https://github.com/anusha414/Azure-Dev.git",
+      "connectedServiceId": "152594d1-2a30-4d23-b7f1-7479ff6be911",
+      "defaultBranch": "master",
+      "fullName": "anusha414/Azure-Dev",
+      "hasAdminPermissions": "False",
+      "isFork": "False",
+      "isPrivate": "False",
+      "lastUpdated": "2024-06-06T04:25:35Z",
+      "manageUrl": "https://github.com/anusha414/Azure-Dev",
+      "nodeId": "R_kgDOMFli7w",
+      "ownerId": "53256022",
+      "orgName": "anusha414",
+      "refsUrl": "https://api.github.com/repos/anusha414/Azure-Dev/git/refs",
+      "safeRepository": "anusha414/Azure-Dev",
+      "shortName": "Azure-Dev",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/53256022?v=4",
+      "archived": "False",
+      "externalId": "811164399",
+      "ownerIsAUser": "True",
+      "reportBuildStatus": "true",
+      "fetchDepth": "1"
+    },
+    "id": "anusha414/Azure-Dev",
+    "type": "GitHub",
+    "name": "anusha414/Azure-Dev",
+    "url": "https://github.com/anusha414/Azure-Dev.git",
+    "defaultBranch": "master",
+    "clean": null,
+    "checkoutSubmodules": false
+  },
+  "quality": "definition",
+  "authoredBy": {
+    "displayName": "Anusha M V",
+    "url": "https://spsprodcin3.vssps.visualstudio.com/A6ffa226e-feef-4472-86ce-3da6d61ca546/_apis/Identities/5a8ba775-76a6-6bd4-99be-3f3b8c71ad1e",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/matleanusha/_apis/GraphProfile/MemberAvatars/msa.NWE4YmE3NzUtNzZhNi03YmQ0LTk5YmUtM2YzYjhjNzFhZDFl"
+      }
+    },
+    "id": "5a8ba775-76a6-6bd4-99be-3f3b8c71ad1e",
+    "uniqueName": "matleanusha@gmail.com",
+    "imageUrl": "https://dev.azure.com/matleanusha/_apis/GraphProfile/MemberAvatars/msa.NWE4YmE3NzUtNzZhNi03YmQ0LTk5YmUtM2YzYjhjNzFhZDFl",
+    "descriptor": "msa.NWE4YmE3NzUtNzZhNi03YmQ0LTk5YmUtM2YzYjhjNzFhZDFl"
+  },
+  "drafts": [
+
+  ],
+  "queue": {
+    "_links": {
+      "self": {
+        "href": "https://dev.azure.com/matleanusha/_apis/build/Queues/9"
+      }
+    },
+    "id": 9,
+    "name": "Azure Pipelines",
+    "url": "https://dev.azure.com/matleanusha/_apis/build/Queues/9",
+    "pool": {
+      "id": 9,
+      "name": "Azure Pipelines",
+      "isHosted": true
+    }
+  },
+  "id": 2,
+  "name": "anusha414.Azure-Dev",
+  "url": "https://dev.azure.com/matleanusha/7d57e68d-25d4-448e-9098-38669044cc57/_apis/build/Definitions/2?revision=1",
+  "uri": "vstfs:///Build/Definition/2",
+  "path": "\\",
+  "type": "build",
+  "queueStatus": "enabled",
+  "revision": 1,
+  "createdDate": "2024-06-06T04:32:35.343Z",
+  "project": {
+    "id": "7d57e68d-25d4-448e-9098-38669044cc57",
+    "name": "anusha-firstproject",
+    "url": "https://dev.azure.com/matleanusha/_apis/projects/7d57e68d-25d4-448e-9098-38669044cc57",
+    "state": "wellFormed",
+    "revision": 11,
+    "visibility": "private",
+    "lastUpdateTime": "2024-06-03T14:34:53.177Z"
+  }
+}

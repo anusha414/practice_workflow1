@@ -1,0 +1,35 @@
+# Logfile created on 2024-06-13 05:21:33 +0000 by logger.rb/v1.6.0
+I, [2024-06-13T05:21:33.224748 #1]  INFO -- : Using GitHub Features: Defaults
+I, [2024-06-13T05:21:33.225934 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/build/definitions/1?api-version=5.0
+I, [2024-06-13T05:21:33.657705 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:33.696708 #1]  INFO -- request: GET https://api.github.com/repos/anusha414/Azure-pipeline/contents/azure-pipelines.yml?ref=master
+I, [2024-06-13T05:21:34.144310 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:34.148788 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/serviceendpoint/endpoints?api-version=5.0-preview
+I, [2024-06-13T05:21:34.475426 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:34.477918 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/distributedtask/variablegroups?api-version=5.0-preview&queryOrder=idDescending
+I, [2024-06-13T05:21:34.577395 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:34.579666 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/anusha-firstproject/_apis/distributedtask/taskgroups?api-version=5.0-preview
+I, [2024-06-13T05:21:34.797693 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:34.802330 #1]  INFO -- request: GET https://dev.azure.com/matleanusha/_apis/distributedtask/tasks?api-version=5.0-preview
+I, [2024-06-13T05:21:35.209569 #1]  INFO -- response: Status 200
+D, [2024-06-13T05:21:35.267429 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::Steps]: Located transformer for 'Maven@3'
+D, [2024-06-13T05:21:35.269625 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::On]: Located transformer for 'continuousIntegration'
+D, [2024-06-13T05:21:35.269951 #1] DEBUG -- : [Transformers::AzureDevops::Pipeline::On]: Located transformer for 'pullRequest'
+I, [2024-06-13T05:21:35.323578 #1]  INFO -- request: GET https://api.github.com/repos/anusha414/Azure-pipeline
+I, [2024-06-13T05:21:35.734592 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:35.743602 #1]  INFO -- request: GET https://api.github.com/repos/anusha414/Azure-pipeline/git/refs/heads/master
+I, [2024-06-13T05:21:36.114940 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:36.118404 #1]  INFO -- request: POST https://api.github.com/repos/anusha414/Azure-pipeline/git/refs
+I, [2024-06-13T05:21:36.665755 #1]  INFO -- response: Status 201
+I, [2024-06-13T05:21:36.668563 #1]  INFO -- request: GET https://api.github.com/repos/anusha414/Azure-pipeline/contents/.github/workflows/anusha414.azure-pipeline.yml?sha=c7b6772b48e218d367e2af271c41dc1869b9fb83
+I, [2024-06-13T05:21:37.138647 #1]  INFO -- response: Status 404
+I, [2024-06-13T05:21:37.141285 #1]  INFO -- request: PUT https://api.github.com/repos/anusha414/Azure-pipeline/contents/.github/workflows/anusha414.azure-pipeline.yml
+I, [2024-06-13T05:21:37.852436 #1]  INFO -- response: Status 201
+I, [2024-06-13T05:21:37.856815 #1]  INFO -- request: POST https://api.github.com/repos/anusha414/Azure-pipeline/pulls
+I, [2024-06-13T05:21:38.889516 #1]  INFO -- response: Status 201
+I, [2024-06-13T05:21:38.895385 #1]  INFO -- : Pull request: 'https://github.com/anusha414/Azure-pipeline/pull/1'
+I, [2024-06-13T05:21:38.897929 #1]  INFO -- request: GET https://api.github.com/user
+I, [2024-06-13T05:21:39.257565 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:39.261368 #1]  INFO -- request: GET https://api.github.com/repos/anusha414/Azure-pipeline
+I, [2024-06-13T05:21:39.693154 #1]  INFO -- response: Status 200
+I, [2024-06-13T05:21:39.701218 #1]  INFO -- : Sending telemetry with transaction id 'e4fe7501-6e0d-46ca-b3dd-070d26748d50'
